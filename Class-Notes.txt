@@ -1,0 +1,558 @@
+Java Project (07-March-2019)
+----------------------------------------
+
+
+Types of Companies
+
+     - Product based
+     - Service based
+     - Consulting based 
+     - Audit firms
+
+
+
+
+
+
+
+Product Based Company:
+---------------------------------
+These companies will not have any client
+They will develop projects with their own ideas
+They will sell their products to customers in market
+
+Ex : Oracle, MS, HP, Sony, Samsung etc....
+
+These companies will use their own frameworks 
+to develop projects.
+
+In interview they will concentrate on c, c++, ds, algorithms and core java.
+
+Service Based Comapnies
+===================
+Based on client requirement companies will develop projects.
+
+Service based companies will use latest technologies to develop projects.
+
+Bench concept will be available.
+
+Consulting Based Companies
+======================
+
+
+Audit firms
+===========
+Income Tax
+
+
+
+
+
+
+
+
+Types of Projects
+============
+
+What is a Project ?
+-----------------------
+Collection of software programs is called as Software project.
+
+Why we need software projects?
+-----------------------------------------
+Software projects are used to reduce human efforts.
+
+Ex IRCTC, Banking, E-Commerce, Online delivery.
+
+
+
+In companies we can see below 3 types of projects
+----------------------------------------------------
+1) Scratch development
+2) Maintenence projects
+3) Migration projects
+
+
+
+
+
+Scratch develop : Brand new project (5%)
+
+ 
+
+Maintence Projects: (75%)
+
+	- Enhancements
+	- Change Requests
+	- M & O (Maintence & Operations)
+
+
+
+Enhancements : Adding new functionality in existing project.
+
+Change Request : Chaning behaviour of existing functionality.
+
+
+Dev Team - Ongoing development
+
+M & O Team (Production issues) - support
+	- Linux
+	- Putty
+	- WInScp
+	- Splunk
+
+
+
+Migration Projects (15%)
+------------------------
+Changing from one technlogy to other technolgy
+
+Main frames --- java
+
+Changing from one version to another version
+
+jdk 1.6 ----- jdk 1.8
+
+changing from one server to another server
+
+JBoss ------ WebSphere
+
+
+
+
+
+Joining formalities
+PF details
+salary account
+
+Induction program-
+
+
+RM  - Resource Manager
+
+Bench or Resource pooling
+
+Complaince Traings
+
+RM will send your profile to project managers
+
+RM will send will email to bench resource regarding project opening.
+
+
+After joining in company, project/client interview will be there.
+
+
+
+KT for you = > Knowledge Transfer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Project Teams
+-------------
+
+1) Onshore team : Client location team
+	 
+	- functional team (SME) / MBA
+        - developers
+	- testers
+	- admins
+	
+
+   BRD -- > Business requirement Document
+	    Highlevel requirements
+ 
+   
+   FDD ---> Functional Design Document (SRS)
+	    low level requirements
+
+   FDD will be submitted to client for approval
+
+   functional ppl will arrange VC with offshore         memebers to explain fdd post client approval.
+
+ 
+
+Functional ppl will upload FDD in sharepoint.
+
+Sharepoint : Common location for onshore and offshore memebers to exchange documents. (webapp)
+
+	
+
+2) Offshore team
+
+	We will download FDD
+	understand and analyze fdd
+	Write our doubts in QueryLog (Excel)
+	We will set up meeting with functional team
+	MoM (Minutes of Meeting)
+	
+	Design phase (TDD)
+		- Existing sytem
+		- Praposed System
+		- Impact on Existing System
+		- Confirmations
+		- Assumptions
+		- Process diagrams
+			- Class
+			- Sequence
+			- Flow
+		 - Database changes
+			 - New tables
+			 - existing tables
+		 - Screenshots
+
+
+TDD has to approved by architect and functional person.
+
+
+After TDD got approved, we  have to start Development.
+
+
+Local Environement. === > Local Database
+
+Unit Testing (Junit and Mockito) 
+
+Code Review (Peer review, PMD and Sonar Qube)-
+		- Quality Gateway 
+
+Commit code to Repository (SVN & GIT & Bit Bucket)
+
+Dev Environement  ===> Dev Box  
+	DIT	(Integration Testing)
+
+Dev artifacts 
+
+
+SIT (System Integration Testing) - Testers
+	- SIT TT
+
+Bug Reporting using bugzilla or jira
+
+QA Manager will certify our code
+
+UAT =>User acceptance testing
+		- UAT TT
+Pilot = > Pre-production
+	- performance testing (JMeter)
+
+	- real data testing
+
+Go Live == > Production (client delivery)
+
+
+M & O
+
+
+
+
+Project : Collection of programs
+
+Types of Projects	
+-----------------
+	
+1)Scratch 
+
+2)Maintenence
+	- Enhancements
+	- Change Request
+	- M & O (Support & Bug Fixing)
+
+3)Migration
+
+
+Types of Companies
+------------------
+
+1) Service based
+2) Product based
+
+Project Teams
+--------------
+1) Onshore (client location team)
+
+2) Offshore
+
+
+Offshore and onshore teams will communicate with Bridge calls (conference calls) VOIP.
+
+
+13-Mar-2019
+=============
+
+Project Development Procedure
+-----------------------------
+
+1) Client will provide requirements
+
+2) Functional team will collect requirements from client
+
+3) Functional team will prepare BRD (Business Requirement document)
+
+BRD - Business requirement document
+
+4) Functional team will submit BRD to client for approval.
+
+5) Client will provide approval for BRD.
+
+6) Functional team will prepare FDD based on BRD.
+
+FDD - Functional design document
+
+7) Functional will team will submit FDD to client for approval.
+
+8) Client will provide approval for FDD.
+
+9) Functional team will explain FDD to developers and testers in VC or Bridge call.
+
+10) Functional team will share FDD to developers and testers.
+
+Note : Sharepoint will be used to store project related documents.
+
+11) Functional team will send an email to offshore team saying that fdd uploaded to sharepoint they will provide sharepoint URL also in email.
+
+12) Developers and Testers will download FDD from sharepoint.
+
+13) Dev & Testing team will analyze FDD.
+
+14) Project will have Query Log where we need to write our queries. (Query Log is excel file).
+
+Note : Query log will be there in sharepoint.
+
+15) Daily calls will be scheduled with functional team to discuss queries mentioned in query log.
+
+16) After every call we should send MoM.
+
+Mom - Minutes of meeting (i.e call discussion summary)
+
+
+17.1) Developers will prepare TDD 
+17.2) Testers will prepare Test Scenarios
+
+18.1) Developer will send TDD to architect and to functional team for approval.
+
+18.2) Tester will send test scenarios to functional team for approval.
+
+
+19) TDD and Test scenarios will be approved.
+
+
+20.1) Developer will start development using TDD.
+
+20.2) Tester will prepare Test cases using Test Scenarios.
+
+
+21) Test Driven Development : Testers will share test cases to developers to perform Unit Testing.
+
+22) Developers has to perform Code Review
+		 - manual review (peer)
+		 - tool review (sonar qube)
+
+
+23) Developers will commit code to source code repository server (like SVN or GIT HUB).
+
+24) Developers will send email to Devops team to create pipe line for our repository for deployment in Dev box.
+
+24) DEVOPS team will create Pipe line for Deployment in Dev box.
+
+SDET - 
+
+25) Developer has to deploy code to Dev box using Jenkins pipe line.
+
+26) Deveopers has to perfom DIT (Developer Integration Testing).
+
+
+27) Developer has to prepare Dev Artifacts (DIT Results).
+
+
+28) QA folks will use pipe line for deployment in SIT  (System Integration Testing).
+
+
+29) Testers will test application using Test cases.
+
+30) Testers will report bugs using Bug Reporting tools like BugZilla or Jira.
+
+
+14-Mar-2019
+===========
+
+UAT - client location
+
+Defect Triaging call--- 
+
+r.7.1  -- uat
+
+r.7.2 -- sit
+
+r.7.3 -- dev
+
+
+
+
+
+
+PILOT === > testing with real data
+		performance testing
+			- load testing---- 
+			- volume testing--- 
+			 - Stress testing --- 
+
+
+
+Production ; Go live  ===> m & O
+
+
+
+
+
+
+Local
+DIT
+SIT
+UAT
+Pilot
+Production
+
+
+CI & CD = continuous Integration and Continuos deployment
+
+
+
+
+
+
+
+Roles & Responsibilities
+========================
+1) Understanding requirements using FDD
+
+
+2) Drafting queries in QueryLog
+
+3) Interaction with functional team to get clarifications for queries
+
+4) Providing ROM (Rough order of magnitude)
+		 - Estimated efforts
+
+5) Preparation of TDD
+
+5) Development
+
+6) Unit Testing
+
+7) Code Review 
+
+8) Developer Integration testing
+
+9) Providing SIT support
+
+10) Providing UAT support
+
+11) Providing Pilot Support
+
+
+15-Mar-2019
+-----------
+
+
+
+go and start working on CR-198
+
+by eod come up with rom.
+
+
+50 hours 
+(analysis+design+dev+unittesting+dit+code review)
+
+20 hours
+
+minor=20
+major=25
+big - 40
+
+
+90 hours
+
+
+
+
+
+
+
+
+Domain:
+-------
+HealthCare
+Insurance
+Banking
+Telecom
+e-commerce
+Retial etc.........
+
+Health insurance & Banking
+
+
+Technologies : 
+=============
+
+Java, JEE, Spring Core, Spring MVC ,Spring Boot, Spring Data, Spring Rest, Spring Cloud, Mircro Services, Apache Kafka, SOAP Webservices, Oracle, Maven, JSP, Ajax, Jquery, JavaScript.
+
+
+
+Tools
+=====
+SVN, GIT
+Log4j, Putty, WinScp, Splunk
+Junit, Mockito and Jacocco
+BugZilla and JIRA
+PMD and Sonar Qube
+Jenkis
+JMeter and Selenium
+Linux commands
+Java Mail API
+Twillo api
+Apache POI
+Itext Pdf api
+
+
+Repository : Repository is the place where we will store project source code.
+
+
+Without these tools help, integrating and maintaing of project source code is hectic process.
+
+Below are the Repository tools we can use for project.
+
+
+Repository tools
+=================
+CVS
+Clear Case
+SVN
+GIT HUB
+Bit Bucket  etc...
+
+
+
+In Repositories we can store data in files format.
+
+Any file format we can store in repository.
+
+Repositories will maintain versions for the files.
+
+
+
+
+
+
