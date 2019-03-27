@@ -1,0 +1,299 @@
+Version Control Tools
+=====================
+What is Repository ?
+Why we need Repository ?
+Advantages of Repositories ?
+SVN Introduction
+SVN Installation (Server & client)
+Visual SVN Server (Server)
+Tortoise SVN client (Client)
+Subclipse plugin in IDE
+
+SVN Operations
+	- checkout
+	- checkin
+	- add
+	- update
+	- delete
+	- show logs
+	- lock
+	- merge
+	- revert
+ 	- conflict
+	- branches (trunk, branch and tags)
+
+Email template for access request
+
+Interview questions related to version control system.
+
+
+PM will send email to Admin team to create Repository in SVN
+
+Admin will share Repo URL to PM
+
+------------------------------------------------------------
+
+
+To: admin@sbi.com
+
+Cc : sunil.b@tcs.com
+
+Hi Admin Team,
+
+I am Ashok, newly joined in SBI Project. Please provide SVN URL and Access.
+
+Emp Id : 797979
+Official Email : ashok.b@tcs.com
+
+@Sunil : Please approve my request.
+
+Thanks & Regards,
+Ashok.
+
+
+
+
+Admin will create Repository for Project with  a name.
+
+SBI Repo URL : https://DESKTOP-OLT40PU/svn/SBI_Repo
+
+SBI Trunk Repo URL : https://DESKTOP-OLT40PU/svn/SBI_Repo/trunk
+SBI Branch Repo URL : https://DESKTOP-OLT40PU/svn/SBI_Repo/branches
+SBI Tag Repo URL : https://DESKTOP-OLT40PU/svn/SBI_Repo/tags
+
+Users
+-----
+ashok/ashok (R & W)
+john/john (R & W)
+charles/charles (R & W)
+-----------------------------
+
+SVN Server : One computer -- Visual SVN Server
+SVN Client : all team memebers  -- Tortoise SVN / Subclipse
+
+
+Project Repository URL : https://192.168.0.1:8080/svn/SBI_Repo/trunk
+
+Username : ashok.b@tcs.com
+Password : Winter@2019
+
+------------------------------------------------------------------
+
+Checkout : Taking project from Repository server to local machine
+
+Add : When we create new files, first we need to add them to commit.
+
+Commit : Pushing files/code from local machine to Repository server is called Commit / Check-in.
+
+Diff : When we are commiting changes to existing repository file then it is highly recommended to see diff first before commiting.
+
+Update : Taking latest changes from Repostiroy file to local file.
+
+Show Logs : Checking history of file commits.
+
+
+Color Representations
+---------------------
+
+Blue color plus : When we add a file to SVN Repo  (File added but not committed Yet. File/Folder is ready to commit).
+
+Red color circle : Changes made to local file those changes are not available in Repository. That color represents we have to commit our local changes.
+
+
+Green color Tick mark : Repostiroy files and local files are up to date.
+
+Light Yellow Triangle : It represents file is in conflict state.
+When conflict happend, junk code will added to our files.
+We have to resolve conflicts before committing repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Delete : Delete is used to delete one file/folder from repository.
+
+It is two step process
+
+1) Delete file from local machine
+
+2) Commit that change.
+
+
+
+
+Bugfixing for UAT
+
+Triage call : 
+
+out of 5 --- 1 defect is invalid
+
+4 defects are handed over to offshore.
+
+
+Hi Team,
+
+As per triage call, uat team handed over below 4 defects to us.
+
+Please find below assignments for 21-03-2019.
+
+Bharth -- BUG-109,Bug-108
+Raju   BUG-110
+Sunil  Bug-111
+Rajesh  Bug-112
+
+Note: We have build & deployment at 5:00 PM so plese make sure your checkins are completed before 4:45 PM. SVN will be locked by 4:46 pm.
+
+Thanks & Regards,
+Ashok.
+
+
+
+Delete : If we want to delete a file from repository server we wil use delete option.
+
+Lock : If we don't want other to commit the file then we will lock tht file. After completion of our commit then we have to release the lock.
+
+Get Lock :
+Release Lock : 
+
+
+Checkout:
+Add : 
+Checkin :
+Update : 
+Show log : 
+Diff : 
+Lock : 
+Delete : 
+
+
+Revisoin Number : 
+
+Branches in SVN
+---------------
+
+trunk
+branches
+tags
+
+
+
+
+
+Agile methodology (SDLC)
+------------------------
+
+Sprint Planning : One meeting will be conducted to decide scope of Sprint. (10 requirments).
+
+
+Scrum : Daily standup meeting. (daily for 15-20 mins)
+
+Sprint : Release
+
+Retrospective : Review meeting to analyze what went well and what went wrong in last sprint and analyze lessons learned.
+
+
+-> Sprint means release to client.
+
+-> Every Sprint will have a number like R.7.0 , R.7.1, R.7.2 etc
+
+-> Every Sprint will have some duration like 2 weeks.
+
+
+
+Backlog
+
+
+Technical Debt - some part is completed.
+
+8 & 9 to next sprint as a backlog from current sprint
+
+
+
+
+
+
+
+Development stage
+
+QA stage
+
+Production 
+
+
+30 requirements client
+
+
+R5.1  :  1 - 10 reqirements ( 2 weeks duration) - 1 team
+
+R5.2 :   11-20 requirements ( 2 weeks duration) - 2 team
+
+R5.3 :   21-30 requirements ( 4 weeks duration ) - 3 team
+
+M&O : 10 members
+
+There should be 3 code bases for all three sprints
+
+
+Hi Team,
+
+As all of you know that, from today we starting R5.1, R5.2 and R5.3 developments paralelly.
+
+PFB code base mappings for the same.
+
+R5.1 - https://192.168.0.1:8080/svn/SBI_Repo/trunk : apr-6
+
+R5.2 - https://192.168.0.1:8080/svn/SBI_Repo/branches/R5.2 : apr-10
+
+R5.3 - https://192.168.0.1:8080/svn/SBI_Repo/branches/R5.3 : apr-20
+
+m & O - https://192.168.0.1:8080/svn/SBI_Repo/tags
+
+
+Inorder to work with SVN from IDE we need to install Subclipse plugin in IDE.
+
+Subclipse is a open source plugin.
+
+====================================================================
+
+Dis-Advantages
+---------------
+
+1) It is centralized
+
+2) Internet Connection is required to access SVN Server
+
+3) Single Point of failure
+
+
+To Overcome these challenges in SVN, GIT came into Picture.
+
+
+1) GIT (Client)
+
+2) GIT HUB (Cloud platform)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
