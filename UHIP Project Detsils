@@ -1,0 +1,55 @@
+Project Name : UHIP (Unified Health Insurance Plans)
+Functional Domain : Public sector/healthcare/insurance
+Technical Domain : Java JEE Spring Spring Boot Oracle
+
+Description : It is used to provide fully integrated eligiblity system to new jersey state citizens.
+
+SNAP
+CCAP
+Medicare
+Medicaid
+QHP
+
+
+UHIP Modules
+-------------
+
+Admin : 
+------
+Create Account
+View Accounts
+Edit/Update Account
+Activate/De-Actiate Account
+
+Plan Creation
+View Plans
+Edit/Update Plans
+Activate/De-Activate Plans
+
+User Management
+--------------
+Login ?
+Forgot Password ?
+
+Application Registration
+------------------------
+Create Application (AR001)
+
+
+Data Collection
+----------------
+Income Details - For Snap
+Child Details - For CCAP
+Education Details - NJW
+
+
+Eligibility Determination
+-------------------------
+Deterimine Eligibility
+
+
+Correspondence
+---------------
+batches
+batch scheduling
+batch execution shell scripts
